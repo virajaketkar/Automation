@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-01T23:39:20 EST" name="Default suite" finished-at="2020-11-01T23:39:52 EST" duration-ms="32145">
+    <groups>
+    </groups>
+    <test started-at="2020-11-01T23:39:20 EST" name="Default test" finished-at="2020-11-01T23:39:52 EST" duration-ms="32145">
+      <class name="Amazon.Com.AddproductToCartTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Amazon.Com.AddproductToCartTest@54d9d12d]" started-at="2020-11-01T23:39:20 EST" name="beforeSuite" finished-at="2020-11-01T23:39:20 EST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Amazon.Com.AddproductToCartTest@54d9d12d]" started-at="2020-11-01T23:39:20 EST" name="beforeClass" finished-at="2020-11-01T23:39:20 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="before()[pri:0, instance:Amazon.Com.AddproductToCartTest@54d9d12d]" started-at="2020-11-01T23:39:20 EST" name="before" finished-at="2020-11-01T23:39:21 EST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Amazon.Com.AddproductToCartTest@54d9d12d]" started-at="2020-11-01T23:39:21 EST" name="beforeMethod" finished-at="2020-11-01T23:39:33 EST" duration-ms="12477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Amazon.Com.AddproductToCartTest@54d9d12d]" started-at="2020-11-01T23:39:33 EST" name="beforeMethod" finished-at="2020-11-01T23:39:33 EST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Amazon.Com.AddproductToCartTest.addProduct() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addProduct()[pri:0, instance:Amazon.Com.AddproductToCartTest@54d9d12d]" started-at="2020-11-01T23:39:33 EST" name="addProduct" description="Add Prodcut to Cart Test" finished-at="2020-11-01T23:39:52 EST" duration-ms="19075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Amazon.Com.AddproductToCartTest@54d9d12d]" started-at="2020-11-01T23:39:52 EST" name="afterMethod" finished-at="2020-11-01T23:39:52 EST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProduct status=SUCCESS method=AddproductToCartTest.addProduct()[pri:0, instance:Amazon.Com.AddproductToCartTest@54d9d12d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Amazon.Com.AddproductToCartTest@54d9d12d]" started-at="2020-11-01T23:39:52 EST" name="after" finished-at="2020-11-01T23:39:52 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Amazon.Com.AddproductToCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

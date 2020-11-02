@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Demo Amazon Tests(failed)">
+    <classes>
+      <class name="Amazon.Com.SignInTest">
+        <methods>
+          <include name="after"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="signInProcess"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- Amazon.Com.SignInTest -->
+    </classes>
+  </test> <!-- Demo Amazon Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

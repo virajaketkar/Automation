@@ -1,0 +1,203 @@
+<html>
+<head>
+<title>TestNG:  Regression Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 31 13:34:57 EST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>1003 seconds (1003316 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.cases.TimeandLabour.CR3864_Security.E148_CR3864_NonS34ManagerAccessManagerSelfServiceTest.NonS34ManagerAccessMSS()'><b>NonS34ManagerAccessMSS</b><br>Test class: test.cases.TimeandLabour.CR3864_Security.E148_CR3864_NonS34ManagerAccessManagerSelfServiceTest<br>Test method: None S34 Manager Access   Test</td>
+<td><div><pre>java.lang.Exception
+	at utilities.Utils.takeScreenshot(Utils.java:161)
+	at test.cases.TimeandLabour.CR3864_Security.E148_CR3864_NonS34ManagerAccessManagerSelfServiceTest.NonS34ManagerAccessMSS(E148_CR3864_NonS34ManagerAccessManagerSelfServiceTest.java:60)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace484794335", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace484794335'><pre>java.lang.Exception
+	at utilities.Utils.takeScreenshot(Utils.java:161)
+	at test.cases.TimeandLabour.CR3864_Security.E148_CR3864_NonS34ManagerAccessManagerSelfServiceTest.NonS34ManagerAccessMSS(E148_CR3864_NonS34ManagerAccessManagerSelfServiceTest.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test.cases.TimeandLabour.CR3864_Security.E148_CR3864_NonS34ManagerAccessManagerSelfServiceTest@63753b6d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.cases.TimeandLabour.MSS_ApprovePayableTimeTest.EnterTimeSheetByWeekSelfService()'><b>EnterTimeSheetByWeekSelfService</b><br>Test class: test.cases.TimeandLabour.MSS_ApprovePayableTimeTest<br>Test method: View Payable Time TRC Test</td>
+<td></td>
+<td>80</td>
+<td>test.cases.TimeandLabour.MSS_ApprovePayableTimeTest@4e9ba398</td></tr>
+<tr>
+<td title='test.cases.TimeandLabour.ESS_ViewPayableTimeTest.EnterTimeSheetByWeekSelfService()'><b>EnterTimeSheetByWeekSelfService</b><br>Test class: test.cases.TimeandLabour.ESS_ViewPayableTimeTest<br>Test method: View Payable Time TRC Test</td>
+<td></td>
+<td>44</td>
+<td>test.cases.TimeandLabour.ESS_ViewPayableTimeTest@6d7b4f4c</td></tr>
+<tr>
+<td title='test.cases.TimeandLabour.CR3864_Security.E148_CR3864_NonSuperUserAccessPreConditionTest.NonS34ManagerAccessPrecondition()'><b>NonS34ManagerAccessPrecondition</b><br>Test class: test.cases.TimeandLabour.CR3864_Security.E148_CR3864_NonSuperUserAccessPreConditionTest<br>Test method: NonS34Manager Access Manager SelfService PreConditon Test</td>
+<td></td>
+<td>31</td>
+<td>test.cases.TimeandLabour.CR3864_Security.E148_CR3864_NonSuperUserAccessPreConditionTest@6b09bb57</td></tr>
+<tr>
+<td title='test.cases.TimeandLabour.CR3864_Security.E148_CR3864_NonSuperUserAccessManagerSelfServiceTest.NonSuperUserAccessMSS()'><b>NonSuperUserAccessMSS</b><br>Test class: test.cases.TimeandLabour.CR3864_Security.E148_CR3864_NonSuperUserAccessManagerSelfServiceTest<br>Test method:  NonSuperUser Access   Test</td>
+<td></td>
+<td>15</td>
+<td>test.cases.TimeandLabour.CR3864_Security.E148_CR3864_NonSuperUserAccessManagerSelfServiceTest@6536e911</td></tr>
+<tr>
+<td title='test.cases.TimeandLabour.CR3864_Security.E148_CR3864_NonS34ManagerAccessPreConditionTest.NonSuperUserAccessPrecondition()'><b>NonSuperUserAccessPrecondition</b><br>Test class: test.cases.TimeandLabour.CR3864_Security.E148_CR3864_NonS34ManagerAccessPreConditionTest<br>Test method: NonS34Manager Access Manager SelfService PreConditon Test</td>
+<td></td>
+<td>33</td>
+<td>test.cases.TimeandLabour.CR3864_Security.E148_CR3864_NonS34ManagerAccessPreConditionTest@5f9d02cb</td></tr>
+<tr>
+<td title='test.cases.TimeandLabour.CR3864_Security.E148_CR3864_S34ManagerAccessPreConditionTest.S34ManagerAccessPrecondition()'><b>S34ManagerAccessPrecondition</b><br>Test class: test.cases.TimeandLabour.CR3864_Security.E148_CR3864_S34ManagerAccessPreConditionTest<br>Test method: S34Manager Access UpdateS34Manager Page PreConditon Test</td>
+<td></td>
+<td>28</td>
+<td>test.cases.TimeandLabour.CR3864_Security.E148_CR3864_S34ManagerAccessPreConditionTest@520a3426</td></tr>
+<tr>
+<td title='test.cases.TimeandLabour.CR3864_Security.E148_CR3864_S34ManagerAccessUpdateS34ManagerEmployeeTest.S34ManagerAccessUpdateEmployee()'><b>S34ManagerAccessUpdateEmployee</b><br>Test class: test.cases.TimeandLabour.CR3864_Security.E148_CR3864_S34ManagerAccessUpdateS34ManagerEmployeeTest<br>Test method: S34 Manager UpdateEmployee Access   Test</td>
+<td></td>
+<td>50</td>
+<td>test.cases.TimeandLabour.CR3864_Security.E148_CR3864_S34ManagerAccessUpdateS34ManagerEmployeeTest@18eed359</td></tr>
+<tr>
+<td title='test.cases.TimeandLabour.CR3864_Functional.E148_CR3864_S34ManagerEnterTimeTest.S34ManagerSubmitTimeSheet()'><b>S34ManagerSubmitTimeSheet</b><br>Test class: test.cases.TimeandLabour.CR3864_Functional.E148_CR3864_S34ManagerEnterTimeTest<br>Test method: Enter Time Sheet Manager SelfService  Test</td>
+<td></td>
+<td>88</td>
+<td>test.cases.TimeandLabour.CR3864_Functional.E148_CR3864_S34ManagerEnterTimeTest@370736d9</td></tr>
+<tr>
+<td title='test.cases.YearEnd.YearEndReviewT4SlipTest.SearchEmployee()'><b>SearchEmployee</b><br>Test class: test.cases.YearEnd.YearEndReviewT4SlipTest<br>Test method: Year End Search Employee Test</td>
+<td></td>
+<td>45</td>
+<td>test.cases.YearEnd.YearEndReviewT4SlipTest@527740a2</td></tr>
+<tr>
+<td title='test.cases.YearEnd.YearEndAmendCancelSlipTest.SearchEmployee()'><b>SearchEmployee</b><br>Test class: test.cases.YearEnd.YearEndAmendCancelSlipTest<br>Test method: Year End Search Employee Test.. Edit T4 Box </td>
+<td></td>
+<td>49</td>
+<td>test.cases.YearEnd.YearEndAmendCancelSlipTest@13a5fe33</td></tr>
+<tr>
+<td title='test.cases.TimeandLabour.CR3864_Security.E148_CR3864_TLSuperUserAccessPreConditionTest.TLSuperUserAccessPreCondition()'><b>TLSuperUserAccessPreCondition</b><br>Test class: test.cases.TimeandLabour.CR3864_Security.E148_CR3864_TLSuperUserAccessPreConditionTest<br>Test method: TLSuper UserAccess PreConditon Test</td>
+<td></td>
+<td>30</td>
+<td>test.cases.TimeandLabour.CR3864_Security.E148_CR3864_TLSuperUserAccessPreConditionTest@6f1fba17</td></tr>
+<tr>
+<td title='test.cases.TimeandLabour.CR3864_Security.E148_CR3864_TLSuperUserAccessUpdateS34ManagerEmployeeTest.TLSuperUserS34AccessUpdateEmployee()'><b>TLSuperUserS34AccessUpdateEmployee</b><br>Test class: test.cases.TimeandLabour.CR3864_Security.E148_CR3864_TLSuperUserAccessUpdateS34ManagerEmployeeTest<br>Test method: TLSuperUser UpdateEmployee Access   Test</td>
+<td></td>
+<td>50</td>
+<td>test.cases.TimeandLabour.CR3864_Security.E148_CR3864_TLSuperUserAccessUpdateS34ManagerEmployeeTest@185d8b6</td></tr>
+<tr>
+<td title='test.cases.TimeandLabour.CR3864_Security.E148_CR3864_TimekeeperAccessPreConditionTest.TimeKeeperAccessPreCondition()'><b>TimeKeeperAccessPreCondition</b><br>Test class: test.cases.TimeandLabour.CR3864_Security.E148_CR3864_TimekeeperAccessPreConditionTest<br>Test method: Time Keeper Access UpdateS34Manager Employee PreConditon Test</td>
+<td></td>
+<td>28</td>
+<td>test.cases.TimeandLabour.CR3864_Security.E148_CR3864_TimekeeperAccessPreConditionTest@3e9b1010</td></tr>
+<tr>
+<td title='test.cases.TimeandLabour.CR3864_Security.E148_CR3864_TimekeeperUserAccessUpdateS34ManagerEmployeeTest.TimekeeperAccessS34UpdateEmployee()'><b>TimekeeperAccessS34UpdateEmployee</b><br>Test class: test.cases.TimeandLabour.CR3864_Security.E148_CR3864_TimekeeperUserAccessUpdateS34ManagerEmployeeTest<br>Test method: Timekeeper UpdateEmployee Access   Test</td>
+<td></td>
+<td>22</td>
+<td>test.cases.TimeandLabour.CR3864_Security.E148_CR3864_TimekeeperUserAccessUpdateS34ManagerEmployeeTest@6c3708b3</td></tr>
+<tr>
+<td title='test.cases.TimeandLabour.MSS_ViewPayableTimeTest.ViewPayableTimeMS()'><b>ViewPayableTimeMS</b><br>Test class: test.cases.TimeandLabour.MSS_ViewPayableTimeTest<br>Test method:  MS View Payable Time TRC Test</td>
+<td></td>
+<td>87</td>
+<td>test.cases.TimeandLabour.MSS_ViewPayableTimeTest@2286778</td></tr>
+<tr>
+<td title='test.cases.hr.AddPersonTest.addPerson()'><b>addPerson</b><br>Test class: test.cases.hr.AddPersonTest<br>Test method: Add Person Direct Entry Test</td>
+<td></td>
+<td>106</td>
+<td>test.cases.hr.AddPersonTest@3108bc</td></tr>
+</table><p>
+</body>
+</html>

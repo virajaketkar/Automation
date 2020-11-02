@@ -1,0 +1,6 @@
+{
+"name":"TestCase",
+"Data":[
+{"TCName":"Test1","Env":"URL1","${Data1}":"qwer","${Data2}":"qwe123","${Data3}":"qwe123"},
+{"TCName":"Test2","Env":"URL1","${Data1}":"asdf","${Data2}":"qwe456"}
+]}
